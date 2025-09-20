@@ -1,0 +1,27 @@
+# Virtualenv
+.venv/
+venv/
+ENV/
+env/
+
+# Bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE configs
+.idea/
+.vscode/
+
+# Banco local
+*.sqlite3
+
+# Arquivos de ambiente
+.env
+
+# Logs
+*.log
+
+# Cache
+.cache/

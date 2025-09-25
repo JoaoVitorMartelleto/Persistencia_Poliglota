@@ -5,16 +5,11 @@ import os
 from db_sqlite import criar_conexao_sqlite, criar_tabelas, inserir_estado, inserir_cidade, listar_cidades
 import db_mongo as dbm
 
-# Initialize DBs
 conn = criar_conexao_sqlite()
 criar_tabelas(conn)
 
 st.set_page_config(page_title="Persistência Poliglota", layout="wide")
 st.title("Persistência Poliglota: SQLite + MongoDB (Geoprocessamento)")
-
-with st.sidebar:
-    st.subheader("Config")
-    st.write("MongoDB URI (env var MONGODB_URI)")
 
 st.header("1) Cadastrar Estado e Cidade (SQLite)")
 with st.form("form_cidade"):

@@ -15,7 +15,6 @@ st.title("Persistência Poliglota: SQLite + MongoDB (Geoprocessamento)")
 with st.sidebar:
     st.subheader("Config")
     st.write("MongoDB URI (env var MONGODB_URI)")
-    st.write(os.environ.get("MONGODB_URI", )
 
 st.header("1) Cadastrar Estado e Cidade (SQLite)")
 with st.form("form_cidade"):

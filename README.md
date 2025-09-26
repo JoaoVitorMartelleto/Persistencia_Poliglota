@@ -68,3 +68,18 @@ Selecionando a cidade “João Pessoa” cadastrada no SQLite, o sistema exibe t
 ### 4.4 Consulta por Proximidade
 
 Dada uma coordenada (-7.120, -34.880) e raio de 10 km, o sistema retorna todos os locais armazenados no MongoDB dentro desse raio.
+
+---
+## 5. imagens de teste 
+
+### 1 Cadastrar Estado e Cidade
+<img width="1433" height="601" alt="image" src="https://github.com/user-attachments/assets/069a3b8c-ef4a-4031-9ca9-4779009600d9" />
+
+### 2 Cadastrar Local
+<img width="1319" height="633" alt="image" src="https://github.com/user-attachments/assets/8c0380cb-fc28-48c6-a56b-ca769b07add6" />
+
+### 3 Consultar locais por cidade
+<img width="1361" height="535" alt="image" src="https://github.com/user-attachments/assets/61ea9db8-11f9-4b20-aeb7-86927dec680f" />
+
+### 4 Buscar locais por proximidade (a partir de uma coordenada)
+<img width="1377" height="699" alt="image" src="https://github.com/user-attachments/assets/138cbeb0-9a96-4378-8220-c3e5368e945a" />
